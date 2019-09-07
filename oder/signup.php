@@ -1,5 +1,4 @@
 <html>
-
 <head>
 	<title>OEdR Signup</title>
 <style>
@@ -53,6 +52,5 @@ button {
   </div>
 </div>
 </form>
-
 </body> 
 </html>
