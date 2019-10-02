@@ -72,7 +72,7 @@ button {
     <a href="http://localhost/oder/afterloging.php">Back</a> 
   </div>
 </div>
-  <h4 style="color:maroon"><strong>Hello, <?php echo htmlentities($_SESSION["username"],ENT_QUOTES, 'UTF-8'); ?> welcome to OEdR</h4></strong>
+  <h4 style="color:maroon"><strong>Hello, <?php echo htmlentities($_SESSION["username"],ENT_QUOTES, 'UTF-8'); ?> Welcome to OEdR</h4></strong>
   
       <div class="row">
   <div class="col-md-5">
@@ -81,7 +81,7 @@ button {
     <br><br><br><br><br><br><br><br><br><br>
     <strong><h3 style="color:black">Select File To Upload</h3></strong><br>
             <input type="file" file-model="myFile"/><br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" ng-click="uploadFile()">upload me</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" ng-click="uploadFile()">Upload me</button>
         </div>
     </body>
 </body>
